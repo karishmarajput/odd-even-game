@@ -1,0 +1,45 @@
+.container-1 {
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(248, 237, 237);
+}
+.select {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.select img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+    
+
+}
+.dropbtn {
+    background-color: #9ac3eb;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    font-weight: bold;
+    padding: 16px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+}  
+.dropdown-content {
+    color: rgb(243, 103, 103);
+    border: black;
+    padding: 15px;
+    font-weight: 400;
+    font-size: x-large;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+.status {
+    box-sizing: content-box;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    color: rgb(207, 90, 218);
+}
